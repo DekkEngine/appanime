@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar color="anime" >
+    <ion-title class="titulo" text-center>categorias</ion-title>
+    <ion-buttons left >
+      <button ion-button clear icon-only menuToggle >
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-background-page">
+
+  <ion-card (click)="irShonen()" >
+    <img class="c1" src="assets/imgs/barrio.jpg">
+    <div class="card-title">Shonen</div>
+  </ion-card>
+
+  <ion-card>
+    <img class="c2" src="assets/imgs/barrio.jpg">
+    <div class="card-title">Colegio</div>
+  </ion-card>
+
+  <ion-card>
+    <img class="c3" src="assets/imgs/barrio.jpg">
+    <div class="card-title">Musical</div>
+  </ion-card>
+
+</ion-content>

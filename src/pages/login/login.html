@@ -1,0 +1,32 @@
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content class="contenido" >
+
+  <ion-slides pager>
+      <ion-slide>
+        <h1 text-center >Iniciar sesion</h1>
+        <button (click)="loginwithfb()" class="botonfb" ion-button icon-only icon-start >
+          <ion-icon class="ifb" name="logo-facebook"></ion-icon>
+          Iniciar con facebook
+        </button>
+        <!-- <button class="botongo" ion-button icon-only icon-start >
+          <ion-icon class="igo" name="logo-google"></ion-icon>
+          Iniciar con google
+        </button> -->
+      </ion-slide>
+    
+      <ion-slide>
+        <h1>Bienvenido :D</h1>
+        <p>Vamos...!</p>
+        <button ion-button color="dark" (click)="irTab()" > Entrar </button>
+      </ion-slide>
+  </ion-slides>
+
+</ion-content>

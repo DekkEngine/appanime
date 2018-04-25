@@ -1,0 +1,9 @@
+export { HomePage } from "./home/home";
+export { PerfilPage } from "./perfil/perfil";
+export { TabsPage } from "./tabs/tabs";
+export { TodosPage } from "./todos/todos";
+export { ShonenPerfilPage } from "./shonen-perfil/shonen-perfil";
+export { CategoriasPage } from "./categorias/categorias";
+export { ShonenVideoPage } from "./shonen-video/shonen-video";
+export { ShonenCategoriaPage } from "./shonen-categoria/shonen-categoria";
+export { LoginPage } from "./login/login";

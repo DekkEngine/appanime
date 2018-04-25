@@ -1,0 +1,24 @@
+page-shonen-categoria {
+
+    $nombre-anime : rgb(56, 56, 56);
+
+    .titulo{
+        margin-right: 90px;
+    }
+    .animeimg{
+        margin-top: 5px;
+        width: 100%;
+        height: 110px;
+        border-radius: 5px;
+    }
+    .animenombre{
+        margin-top: 0px;
+        margin-bottom: -2px;
+        color: $nombre-anime;
+    }
+    .fondo{
+        background-image: url("../assets/imgs/fondo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

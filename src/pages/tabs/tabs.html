@@ -1,0 +1,24 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="anime" >
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button ion-item (click)="perfil()">
+        Perfil
+      </button>
+      <button ion-item (click)="cerrar()">
+        Cerrar
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
+
+<ion-tabs color="anime" selectedIndex="1" >
+  <ion-tab tabTitle="Categorias" tabIcon="md-albums" [root]="tab1"></ion-tab>
+  <ion-tab tabTitle="home" tabIcon="home" [root]="tab2"></ion-tab>
+</ion-tabs>

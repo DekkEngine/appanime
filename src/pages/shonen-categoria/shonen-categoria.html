@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar color="anime" >
+    <ion-title class="titulo" text-center >Shonen</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="fondo" padding >
+
+  <ion-row>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+    <ion-col col-3 *ngFor="let shonen of shonen let i = index" >
+      <img (click)="irShonen(i)" class="animeimg" [src]="shonen.img" alt="">
+      <p class="animenombre" text-center > {{ shonen.nombre }} </p>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

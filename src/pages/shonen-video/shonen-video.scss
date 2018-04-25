@@ -1,0 +1,41 @@
+page-shonen-video {
+    .titulo{
+        margin-right: 20px;
+    }
+    // .carta{
+    //     width: 100%;
+    //     height: 310px;
+    //     position: fixed;
+    //     // background-color: rgb(54, 54, 54);
+    //     background: transparent !important;
+    //     margin-top: 2px;
+    //     margin-left: -0px;
+    // }
+
+    .video {
+        width: 100%;
+        height: 295px;
+        position: fixed;
+        margin-top: 2px;
+        margin-left: -0px;        
+    }
+
+    .cartaLetra{
+        // margin-top: 390px;
+        margin-top: 300px;
+        background: transparent !important;
+
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+
+    ion-content {
+        background-image: url("../assets/imgs/bambu.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

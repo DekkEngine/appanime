@@ -1,0 +1,34 @@
+<ion-header>
+
+  <ion-navbar color="anime" >
+    <ion-title text-center class="titulo" > {{ shonen.nombre }} </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div text-center >
+    <img class="cover" [src]="shonen.cover" alt="">
+    <img class="img" [src]="shonen.img" alt="">
+    <h1> {{ shonen.nombre }} </h1>
+  </div>
+  <div padding >
+    <p class="descripcion" > {{ shonen.descripcion }} </p>
+  </div>
+
+  <div>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img (click)="irOpening()" class="o1" [src]="o1.img">
+          </ion-thumbnail>
+          <h2> Opening 1: {{ o1.nombre }} </h2>
+          <button (click)="irOpening()" ion-button color="secondary" item-right>
+            Ver
+          </button>
+        </ion-item>
+      </ion-list>
+  </div>
+
+</ion-content>
